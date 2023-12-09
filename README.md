@@ -47,43 +47,43 @@ Jenkins 專案區塊簡易說明：
 3. **高級項目選項**：其他進階設定。
 4. **Pipeline**：用於編寫自定義腳本的區塊。
 
-![Jenkins 專案區塊](./img/885.47.19.png)
+![Jenkins 專案區塊](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/885.47.19.png)
 
 ## General 參數化建置
 
 介紹了一些有用的參數類型，如字串參數、密碼參數、布林參數、文字參數、選擇參數。
 
-![參數化建置](./img/886.56.23.png)
+![參數化建置](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/886.56.23.png)
 
 **字串參數：**
 - 輸入名稱：Pipeline 會取得名稱的參數。
 - 默認值：可以給予空值或你想預設的參數。
 
-![字串參數](./img/886.54.33.png)
+![字串參數](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/886.54.33.png)
 
 **密碼參數：**
 - 輸入名稱：Pipeline 會取得名稱的參數。
 - 默認值：可以給予空值或你想預設的參數。
 
-![密碼參數](./img/887.15.26.png)
+![密碼參數](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/887.15.26.png)
 
 **布林值參數：**
 - 輸入名稱：Pipeline 會取得名稱的參數。
 - 預設值：勾選代表預設為 True。
 
-![布林值參數](./img/887.19.42.png)
+![布林值參數](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/887.19.42.png)
 
 **文字參數：**
 - 輸入名稱：Pipeline 會取得名稱的參數。
 - 默認值：可以給予空值或你想預設的參數。
 
-![文字參數](./img/887.25.07.png)
+![文字參數](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/887.25.07.png)
 
 **選擇參數：**
 - 輸入名稱：Pipeline 會取得名稱的參數。
 - 選項：預設為第一個，後面顯示下拉式方式顯示。
 
-![選擇參數](./img/8810.35.04.png)
+![選擇參數](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.35.04.png)
 
 ## 建構觸發器 定時器
 
@@ -99,31 +99,31 @@ Jenkins 專案區塊簡易說明：
 
 每1分鐘執行一次專案
 
-![截圖 2022-09-04 下午8.26.07.png](./img/888.26.07.png)
+![截圖 2022-09-04 下午8.26.07.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.26.07.png)
 
 每5分鐘執行一次專案
 
-![截圖 2022-09-04 下午8.25.07.png](./img/888.25.07.png)
+![截圖 2022-09-04 下午8.25.07.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.25.07.png)
 
 每1小時執行一次專案
 
-![截圖 2022-09-04 下午8.28.40.png](./img/888.28.40.png)
+![截圖 2022-09-04 下午8.28.40.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.28.40.png)
 
 每天早上10點0-10分內，執行一次專案
 
-![截圖 2022-09-04 下午8.30.26.png](./img/888.30.26.png)
+![截圖 2022-09-04 下午8.30.26.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.30.26.png)
 
 每月的5,15,25日，晚上6點0~10分內，執行一次專案
 
-![截圖 2022-09-04 下午8.32.56.png](./img/888.32.56.png)
+![截圖 2022-09-04 下午8.32.56.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.32.56.png)
 
 每年6,12月，晚上8點30-35分內，執行一次專案
 
-![截圖 2022-09-04 下午8.35.14.png](./img/888.35.14.png)
+![截圖 2022-09-04 下午8.35.14.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.35.14.png)
 
 每星期1至5，早上8點到12點0-5分內，執行一次專案
 
-![截圖 2022-09-04 下午8.38.27.png](./img/888.38.27.png)
+![截圖 2022-09-04 下午8.38.27.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/888.38.27.png)
 
 ## 如何編寫 Jenkins Pipeline 腳本
 
@@ -215,25 +215,25 @@ pipeline {
 
 首先先回到Jenkins首頁，點擊新增作業(在點擊新增作業前，將想要舊專案的名稱複製下來)
 
-![截圖 2022-09-04 下午10.30.50.png](./img/8810.30.50.png)
+![截圖 2022-09-04 下午10.30.50.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.30.50.png)
 
 輸入新的專案名稱，接著往下滑動
 
-![截圖 2022-09-04 下午10.34.39.png](./img/8810.34.39.png)
+![截圖 2022-09-04 下午10.34.39.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.34.39.png)
 
 **將舊專案的資料複製一筆到 QAReviewMeetingTestPubilc**
 
-![截圖 2022-09-04 下午10.35.17.png](./img/8810.35.17.png)
+![截圖 2022-09-04 下午10.35.17.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.35.17.png)
 
 ## 串接個人GitHub 公有庫 QAReviewMeetingTestPublic
 
 先到個人GitHub取得對應的公有庫連結，此公有庫有兩個分支 main, test
 
-![截圖 2022-09-04 下午10.41.37.png](./img/8810.41.37.png)
+![截圖 2022-09-04 下午10.41.37.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.41.37.png)
 
 回到 Jenkins QAReviewMeetingTestPublic 新的專案，透過組態去新增我們的GitHub到專案，移動到最下方點擊 **Pipeline Syntax**
 
-![截圖 2022-09-04 下午10.45.12.png](./img/8810.45.12.png)
+![截圖 2022-09-04 下午10.45.12.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.45.12.png)
 
 **獲取 GitHub Pipeline Script**
 
@@ -243,11 +243,11 @@ pipeline {
 4. 點擊 Generate Pipeline Script
 5. 複製字串，這就是Pipeline Script產生出來的指令(會去Github上抓取對應的庫到本地端進行操作)
 
-![截圖 2022-09-04 下午10.47.09.png](./img/8810.47.09.png)
+![截圖 2022-09-04 下午10.47.09.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8810.47.09.png)
 
 接下來針對Jenkins專案，新增一個參數以及新增兩個 stage 至於怎麼新增參數跟stage上面有簡易介紹，我直接貼上腳本以及多新增的參數欄位
 
-![截圖 2022-09-05 上午12.23.01.png](./img/8812.23.01.png)
+![截圖 2022-09-05 上午12.23.01.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8812.23.01.png)
 
 ```bash
 pipeline {
@@ -333,38 +333,38 @@ pipeline {
 
 透過GitHub 個人設定頁面左下角點擊 Developer settings
 
-![截圖 2022-09-03 下午11.40.51.png](./img/8811.40.51.png)
+![截圖 2022-09-03 下午11.40.51.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.40.51.png)
 
 1. 點擊 Personal access tokens
 2. 點擊Generate new token
 
-![截圖 2022-09-03 下午11.41.21.png](./img/8811.41.21.png)
+![截圖 2022-09-03 下午11.41.21.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.41.21.png)
 
 1. Note輸入名稱
 2. 可以選擇token期限，預設是30天
 3. 勾選repo權限
 
-![截圖 2022-09-03 下午11.44.54.png](./img/8811.44.54.png)
+![截圖 2022-09-03 下午11.44.54.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.44.54.png)
 
 點擊 Generate Token
 
-![截圖 2022-09-03 下午11.45.52.png](./img/8811.45.52.png)
+![截圖 2022-09-03 下午11.45.52.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.45.52.png)
 
 可在Personal access tokens 看到剛建立的token
 
-![截圖 2022-09-03 下午11.46.23.png](./img/8811.46.23.png)
+![截圖 2022-09-03 下午11.46.23.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.46.23.png)
 
 回到Jenkins首頁，點擊管理Jenkins
 
-![截圖 2022-09-03 下午11.49.14.png](./img/8811.49.14.png)
+![截圖 2022-09-03 下午11.49.14.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.49.14.png)
 
 點擊 Manage Credentials
 
-![截圖 2022-09-03 下午11.49.35.png](./img/8811.49.35.png)
+![截圖 2022-09-03 下午11.49.35.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.49.35.png)
 
 點擊 global 會展開 Add credential 點擊鑰匙
 
-![截圖 2022-09-03 下午11.50.39.png](./img/8811.50.39.png)
+![截圖 2022-09-03 下午11.50.39.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.50.39.png)
 
 1. Scope選擇Global
 2. Username 輸入你的GitHub帳號
@@ -373,11 +373,11 @@ pipeline {
 5. Description 可為這組ID多做些介紹
 6. 直接點擊Create
 
-![截圖 2022-09-03 下午11.55.16.png](./img/8811.55.16.png)
+![截圖 2022-09-03 下午11.55.16.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.55.16.png)
 
 接回會回到 Manage Credentials 區塊，可查看到上方已經建立好一個證書
 
-![截圖 2022-09-03 下午11.55.29.png](./img/8811.55.29.png)
+![截圖 2022-09-03 下午11.55.29.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/8811.55.29.png)
 
 **修改 Pipeline腳本**
 
@@ -387,7 +387,7 @@ pipeline {
 
 只差於第四點要選擇以及產生來的腳本多帶一個參數
 
-![截圖 2022-09-05 上午1.01.41.png](./img/881.01.41.png)
+![截圖 2022-09-05 上午1.01.41.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/881.01.41.png)
 
 最後提供完整的Piplink腳本
 
@@ -556,7 +556,7 @@ pipeline {
 
 RobotFramework 點擊log or report 無法顯示
 
-![截圖 2022-09-01 下午1.03.03.png](./img/881.03.03.png)
+![截圖 2022-09-01 下午1.03.03.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/881.03.03.png)
 
 ### A:
 
@@ -579,11 +579,11 @@ System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox allow-scripts; default-src 'none'; img-src 'self' data: ; style-src 'self' 'unsafe-inline' data: ; script-src 'self' 'unsafe-inline' 'unsafe-eval' ;")
 ```
 
-![截圖 2022-09-01 下午1.00.41.png](./img/881.00.41.png)
+![截圖 2022-09-01 下午1.00.41.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/881.00.41.png)
 
 執行後，不會有任何資料產生，可直接回到專案內點擊報告測試確認
 
-![截圖 2022-09-01 下午1.01.03.png](./img/881.01.03.png)
+![截圖 2022-09-01 下午1.01.03.png](https://raw.githubusercontent.com/MarkwwLiu/jenkins_teaching/main/img/881.01.03.png)
 
 參考資料來源：
 
